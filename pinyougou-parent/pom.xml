@@ -12,6 +12,14 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+  <modules>
+    <module>../pinyougou-pojo</module>
+    <module>../pinyougou-manager-interface</module>
+    <module>../pinyougou-manager-web</module>
+    <module>../pinyougou-manager-service</module>
+    <module>../pinyougou-dao</module>
+  </modules>
+
   <!-- 集中定义依赖版本号 -->
   <properties>
     <junit.version>4.12</junit.version>
